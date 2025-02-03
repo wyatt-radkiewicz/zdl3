@@ -1,4 +1,7 @@
 .{
     .name = "zdl3",
     .version = "0.0.0",
+    .paths = .{
+        "",
+    },
 }

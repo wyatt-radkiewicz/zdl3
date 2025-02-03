@@ -24,15 +24,13 @@ const sdl = @import("sdl");
 
 ### Build options
 
-If you only want to build certain features of SDL3, you can do so in your build.zig file. When calling ```dependency```, you can add your own build options.
-
 TODO: Explain the build options.
 
 ## Using ZDL3
 
 ZDL3 has an API very simular to SDL3's apis. You can go to the [SDL3 Wiki](https://wiki.libsdl.org/SDL3/FrontPage), or use the [auto-generated docs]() from ZDL3.
 
-For futher help you can see the examples and tests in the [SDL3 Github](https://github.com/libsdl-org/SDL), or see the [ZDL3 examples directory]().
+For futher help you can see the examples and tests in the [SDL3 Github](https://github.com/libsdl-org/SDL), or see the [ZDL3 examples directory](https://github.com/wyatt-radkiewicz/zdl3/tree/main/examples).
 
 ## Contribution
 
@@ -85,6 +83,11 @@ ZDL3 has just started development. Here is the sub-system implementation list:
  - Version
  - Video
  - Vulkan
+ - *SDL_Image
+ - *SDL_TTF
+ - *SDL_Mixer
+ 
+\* only with `from_src` until it gets stable SDL3 release
 ### Unapplicable to Zig:
  - Assert
  - Atomic
